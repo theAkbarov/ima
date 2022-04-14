@@ -46,7 +46,7 @@
         -moz-transition: all ease 0.3s;
         -ms-transition: all ease 0.3s;
         -o-transition: all ease 0.3s;
-            border-left: 3px solid transparent;
+        border-left: 3px solid transparent;
 
         &:hover {
             color: #1D213F;
@@ -68,6 +68,33 @@
     background: #0065DD;
     border-radius: 10px;
     padding: 25px 30px;
+
+    h3 {
+        margin-bottom: 31px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #FFFFFF;
+    }
+
+    p:last-child {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #B3D1F5;
+
+    }
+
+    p:first-child {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+    }
+
 }
 
 .slider {
@@ -129,8 +156,9 @@
 .label {
     flex-direction: row-reverse;
     margin-top: 34px;
-margin-left: 0; 
-     margin-right:0;
+    margin-left: 0;
+    margin-right: 0;
+
     span {
         font-style: normal;
         font-weight: 400;
@@ -138,7 +166,8 @@ margin-left: 0;
         line-height: 21px;
         color: #1D213F;
     }
-    .MuiSwitch-thumb{
+
+    .MuiSwitch-thumb {
         background: red;
     }
 }

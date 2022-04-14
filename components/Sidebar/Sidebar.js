@@ -37,7 +37,7 @@ export const Sidebar = () => {
             <ul>
               <li>
                 <Link href="/">
-                  <a style={{ display: "flex" }}>
+                  <a href="/" style={{ display: "flex" }}>
                     <div>
                       <Main />
                     </div>
@@ -47,7 +47,7 @@ export const Sidebar = () => {
               </li>
               <li>
                 <Link href="/Trademarks">
-                  <a style={{ display: "flex" }} >
+                  <a href="/Trademarks" style={{ display: "flex" }}>
                     <div>
                       <Service />
                     </div>
@@ -57,7 +57,7 @@ export const Sidebar = () => {
               </li>
               <li>
                 <Link href="/utility_model">
-                  <a href style={{ display: "flex" }}>
+                  <a href="utility_model" style={{ display: "flex" }}>
                     <div>
                       <Payment />
                     </div>

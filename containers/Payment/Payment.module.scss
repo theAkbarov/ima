@@ -1,22 +1,123 @@
-.payment_wrapper{
+.payment_wrapper {
+    margin-bottom: 100px;
     display: flex;
     justify-content: space-between;
+    position: relative;
 }
-.w50{
+
+.w50 {
     width: 48%;
     padding: 52px 50px;
     background: #FFFFFF;
     box-sizing: border-box;
-border-radius: 20px;
+    border-radius: 20px;
 }
-.title{
+
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 38px;
+    color: #1D213F;
+}
+
+.mb35 {
+    margin-bottom: 35px;
+}
+
+.close_button {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    background: none;
+    border: none;
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 48%;
+    border: 2px solid #E7EAF0;
+    box-sizing: border-box;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    padding: 10px;
+    min-height: 100px;
+    display: flex;
+
+    &>input {
+        position: absolute;
+    }
+
+    span {
+        margin: 0 auto !important
+    }
+}
+
+
+.center {
+    margin: 45px 0 30px;
+    text-align: center;
+    position: relative;
+    p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #BCC5D6;
+        &::before {
+            content:"";
+            position: absolute;
+            height: 1px;
+            background-color: #DDE1EA;
+            width: 40%;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            margin:  auto;
+        }
+        &::after {
+            content:"";
+            position: absolute;
+            height: 1px;
+            background-color: #DDE1EA;
+            width: 40%;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            margin:  auto;
+        }
+    
+    }
+}
+.secondary{
+    display: flex;
+    align-items: center;
     font-style: normal;
 font-weight: 500;
-font-size: 30px;
-line-height: 35px;
-margin-bottom: 38px;
-color: #1D213F;
+font-size: 16px;
+line-height: 19px;
+color: #0065DD;
+background: none;
+cursor: pointer;
+margin-right: 15px;
+border: none;
+svg{
+    margin-right: 15px;
 }
-.mb35{
-    margin-bottom: 35px;
+}
+.center{
+    display: flex;
+    justify-content: center;
 }

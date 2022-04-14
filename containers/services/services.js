@@ -21,8 +21,8 @@ const Services = () => {
     <div className={classes.services}>
       <h2 className={classes.serviceTitle}>Услуги</h2>
       <div className={classes.wrapper}>
-        {card.map((el) => (
-          <div className={classes.card}>
+        {card.map((el, index) => (
+          <div className={classes.card} key={index}>
             <span className={classes.imageHolder}>
               <Image src={el.logo} alt={el.title} />
             </span>
