@@ -1,0 +1,63 @@
+.PaymentDoc_wrapper{
+    background: #FFFFFF;
+    border-radius: 20px;
+    .holder{
+        padding: 37px 0 39px 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #e7eaf0;
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            color: #1D213F;
+        }
+        button{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0065DD;
+            left: 65px;
+            position: absolute;
+            border: none;
+            background-color: transparent;
+            &::before{
+                width: 5px;
+                height: 9px;
+                background-size: contain;
+                top: 0;
+                bottom: 0;
+                left: -10px;
+                position: absolute;
+                margin: auto;
+                content: '';
+                background-image: url('../../assets/images/Vector\ \(1\).png');
+            }
+        }
+    }
+
+    .update_file{
+        padding: 54px 50px;
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1D213F;
+            margin-bottom: 26px;
+        }
+
+        .drop_file_input {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .upload{
+                width: 46%;
+            }
+        }
+    }
+}

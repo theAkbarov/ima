@@ -1,0 +1,162 @@
+.container_wrapper{
+    padding: 48px 50px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    .big_holder{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 28px;
+        color: #1D213F;
+        margin-bottom: 44px;
+    }
+    .holdet{
+        padding: 25px 0 25px 20px;
+        background: #F1F2F5;
+        border-radius: 5px;
+        text-align: center;
+        position: relative;
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #1D213F;
+        }
+        .back{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0065DD;
+            left: 35px;
+            position: absolute;
+            border: none;
+            background-color: transparent;
+            &::before{
+                width: 5px;
+                height: 9px;
+                background-size: contain;
+                top: 0;
+                bottom: 0;
+                left: -10px;
+                position: absolute;
+                margin: auto;
+                content: '';
+                background-image: url('../../assets/images/Vector\ \(1\).png');
+            }
+        }
+    }
+
+    .personal_info{
+        margin-bottom: 60px;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        &.active{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+        }
+        .rows{
+            padding: 35px 0 35px 20px;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid #E7EAF0;
+            h3{
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 19px;
+                width: 200px;
+                color: #1D213F;
+            }
+            span{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D213F;
+            }
+            .other_span{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #0065DD;
+                padding: 10px 13px;
+                background: #E6F0FC;
+                border-radius: 5px;
+            }
+            .nimadir_do{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                width: 70%;
+                .other_btn{
+                    border: none;
+                    background-color: transparent;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 19px;
+                    color: #0065DD;
+                }
+            }
+            .image{
+                width: 27.5%;
+            }
+            .doc_image{
+                width: 72.5%;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                span{
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 21px;
+                    color: #1D213F;
+                }
+                button{
+                    background-color: transparent;
+                    border: none;
+                }
+            }
+
+        }
+        .download_pdf{
+            padding: 20px 60px 20px 85px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0065DD;
+            background-color: transparent;
+            border: none;
+            border: 1px solid #0065DD;
+            box-sizing: border-box;
+            border-radius: 5px;
+            display: block;
+            margin-top: 35px;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: '';
+                width: 15px;
+                height: 15px;
+                background-size: contain;
+                left: 60px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-image: url('../../assets/images/Vector\ \(2\).png');
+                background-repeat: no-repeat;
+            }
+        }
+        .left{
+            width: 100%;
+        }
+    }
+
+}

@@ -1,0 +1,172 @@
+.InfoZayavkaTwo_wrapper{
+    padding: 50px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    .top_hold{
+        padding: 24px 0;
+        background: #F1F2F5;
+        border-radius: 5px; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #1D213F;
+        }
+        button{
+            position: absolute;
+            left: 35px;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0065DD;
+            border: none;
+            background-color: transparent;
+            &::before{
+                background-image: url('../../assets/images/Vector\ \(1\).png');
+                width: 5px;
+                height: 9px;
+                left: -10px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-size: contain;
+                position: absolute;
+                content: '';
+                background-repeat: no-repeat;
+            }
+        }
+    }
+    .holder{
+        padding: 24px 0 24px 20px;
+        margin-top: 70px;
+        background: #F1F2F5;
+        border-radius: 5px; 
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #1D213F;
+        }
+    }
+    .rows{
+        padding: 35px 0 35px 20px;
+        display: flex;
+        border-bottom: 1px solid #E7EAF0;
+        position: relative;
+        &.active{
+            border-bottom: 1px solid transparent
+        }
+        h3{
+            font-style: normal;
+            font-weight: 600;
+            font-size: 16px;
+            line-height: 19px;
+            width: 200px;
+            color: #1D213F;
+        }
+        span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1D213F;
+        }
+        .other_span{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0CAB2F;
+            padding: 10px 13px;
+            background: #E7F7EA;
+            border-radius: 5px;
+        }
+        .image{
+            width: 27.5%;
+        }
+        .doc_image{
+            width: 72.5%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            span{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 21px;
+                color: #1D213F;
+            }
+            button{
+                background-color: transparent;
+                border: none;
+            }
+        }
+
+        .cate_btns{
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 50%;
+            button{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1D213F;
+                padding: 7px 10px;
+                background-color: transparent;
+                border-radius: 5px;
+                border: none;
+                border: 1px solid #000;
+                margin-bottom: 10px;
+            }
+        }
+        .collape_image{
+            display: flex;
+            justify-content: flex-end;
+            width: 20%;
+            align-items: center;
+        }
+
+        
+
+    }
+
+    .download_pdf{
+        padding: 20px 60px 20px 85px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0065DD;
+        background-color: transparent;
+        border: none;
+        border: 1px solid #0065DD;
+        box-sizing: border-box;
+        border-radius: 5px;
+        display: block;
+        margin-top: 35px;
+        position: relative;
+        &::before{
+            position: absolute;
+            content: '';
+            width: 15px;
+            height: 15px;
+            background-size: contain;
+            left: 60px;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            background-image: url('../../assets/images/Vector\ \(2\).png');
+            background-repeat: no-repeat;
+        }
+    }
+}

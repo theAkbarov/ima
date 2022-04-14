@@ -1,0 +1,109 @@
+.databaseSearch_wrapper {
+padding: 50px;
+background-color: white;
+  .title_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .database_title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 30px;
+      line-height: 30px;
+      color: #1d213f;
+    }
+    .search_exit {
+      outline: none;
+      border: none;
+      cursor: pointer;
+      background-color: transparent;
+    }
+  }
+
+  .input_wrapper {
+    margin-top: 50px;
+    border-bottom: 1px solid #dde1ea;
+    padding-bottom: 50px;
+    .d_flex_select {
+      width: 100%;
+      margin-top: 35px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .search_select {
+        width: 48%;
+      }
+    }
+  }
+
+  // checkbox part
+  .checkbox_wrapper {
+    padding-top: 50px;
+    .top_checkbox_wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .top_checkbox_title {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #8b91a9;
+      }
+      .inner_checkboxes {
+        display: flex;
+        div {
+          margin-right: 30px;
+          display: flex;
+          align-items: center;
+          input {
+            margin-right: 15px;
+            height: 24px;
+            width: 24px;
+          }
+          label {
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1d213f;
+          }
+        }
+      }
+    }
+
+    .checkboxes_below_wrapper {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      div {
+        width: 30%;
+      }
+    }
+    .search_checkbox {
+        border-radius: 5px;
+      margin-top: 50px;
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      width: 100%;
+      padding: 15px 0;
+      background-color: #0065dd;
+      color: white;
+      text-align: center;
+      outline: none;
+      border: none;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 19px;
+      color: #ffffff;
+      div {
+        margin-left: 10px;
+        margin-top: 3px;
+      }
+    }
+  }
+}

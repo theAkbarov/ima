@@ -1,0 +1,94 @@
+.payment_wrapper{
+    .holder_back{
+        padding: 25px 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #F1F2F5;
+        border-radius: 5px;
+        position: relative;
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 18px;
+            line-height: 21px;
+            color: #1D213F;
+        }
+        button{
+            position: absolute;
+            left: 35px;
+            border: none;
+            background-color: transparent;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0065DD;
+            cursor: pointer;
+            &::before{
+                position: absolute;
+                content: '';
+                width: 5px;
+                height: 9px;
+                background-size: contain;
+                left: -10px;
+                top: 0;
+                bottom: 0;
+                margin: auto;
+                background-image: url('../../assets/images/Vector\ \(1\).png');
+            }
+        }
+    } 
+    
+    .informations{
+        margin-top: 12px;
+        .row{
+            padding: 25px 0;
+            border-bottom: 1px solid #E7EAF0;
+            display: flex;
+            align-items: center;
+            h3{
+                width: 120px;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                margin-right: 84px;
+            }
+            span{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+    }
+    .download_btn{
+        border: none;
+        background-color: transparent;
+        padding: 27px 62px 27px 93px;
+        margin-top: 46px;
+        border: 1px solid #0065DD;
+        box-sizing: border-box;
+        border-radius: 5px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0065DD;
+        position: relative;
+        cursor: pointer;
+        &::before{
+            position: absolute;
+            content: '';
+            background-image: url('../../assets/images/Vector\ \(2\).png');
+            background-size: contain;
+            width: 15px;
+            height: 15px;
+            top: 0;
+            bottom: 0;
+            left: 60px;
+            margin: auto;
+        }
+    }
+}

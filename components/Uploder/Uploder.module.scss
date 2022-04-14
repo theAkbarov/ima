@@ -1,0 +1,44 @@
+.Trademarks_inner_middle_right_upload{
+    border: 2px dashed #BCC5D6;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../public/assets/icons/Vectordow.png');
+    background-repeat: no-repeat;
+    background-position: 95%;
+    background-size: auto;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin-top: 50px;
+    min-height: 124px;
+    .title_one{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1D213F;
+        margin-left: 20px;
+        margin-bottom: 5px;
+        cursor: pointer;
+        max-width: 355px;
+
+    }
+    .title_two{
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        color: #8B91A9;
+        margin-left: 20px;
+        cursor: pointer;
+
+    }
+     .Trademarks_inner_middle_right_upload_item{
+         display: none;
+
+     }
+ }

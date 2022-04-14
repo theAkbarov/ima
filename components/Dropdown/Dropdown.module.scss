@@ -1,0 +1,117 @@
+.Dropdown{
+    margin-top: 27px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 20px rgba(144, 158, 187, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    padding-bottom: 0;
+
+    .Dropdown_header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 2px solid #F1F2F5;
+        padding: 0px 0px 20px 0px ;
+        span{
+            display: flex;
+            align-items: center;
+            .box{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid #DDE1EA;
+                box-sizing: border-box;
+                border-radius: 5px;
+                width: 24px;
+                height: 24px;
+                cursor: pointer;
+            }
+             input:checked + label{
+                 background-color: #0065DD;
+             } 
+             .item{
+                 display: none;
+             }
+             .textet{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 16px;
+                color: #1D213F;
+                margin-left: 15px;
+                cursor: pointer;
+                margin-left: 16px;
+             }
+             img{
+                 margin-left: auto;
+             }
+        }
+
+    }
+}
+
+.Dropdown_inner{
+    padding-top: 23px;
+    overflow-y: scroll;
+    height: 500px;
+&::-webkit-scrollbar {
+  width: 3px;
+}
+/* Track */
+&::-webkit-scrollbar-track {
+    background: #E7EAF0;
+    border-radius: 50px;
+}
+/* Handle */
+&::-webkit-scrollbar-thumb {
+    background:  #0065DD; 
+    border-radius: 50px;
+}
+}
+.Dropdown_inner_bottom{
+    padding-top: 25px;
+    padding-bottom: 30px;
+    border-top: 1px solid #E7EAF0;
+    margin-top: 20px;
+    .Dropdown_inner_bottom_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1D213F;
+        p{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0065DD;
+            cursor: pointer;
+        }
+    }
+    .Dropdown_inner_bottom_input{
+        background: #F6F6F8;
+        border-radius: 5px;
+        width: 97%;
+        border: 0;
+        padding: 15px 0px 16px 20px ;
+        margin-top: 17px;
+        
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #909EBB;
+        }
+    }
+}
+.hide{
+    display: none !important;
+}
+

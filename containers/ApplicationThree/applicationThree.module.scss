@@ -1,0 +1,58 @@
+.Application_wrapper{
+    padding: 48px 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 20px;    
+    .holder{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #1D213F;
+        }
+        .btn{
+            padding: 15px 20px 15px 40px;
+            border: none;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+            background: #0065DD;
+            border-radius: 5px;
+            position: relative;
+            &::before{
+                position: absolute;
+                content: '';
+                background-image: url('../../assets/images/plus.png');
+                width: 12px;
+                height: 12px;
+                top: 0;
+                bottom: 0;
+                left: 20px;
+                margin: auto;
+                z-index: 999;
+                background-size: contain;
+            }
+        }
+    }
+
+    .status_tabbar{
+        margin-top: 41px;
+        padding: 25px 20px;
+        box-sizing: border-box;
+        background: #F1F2F5;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        span{
+            display: block;
+            width: 33%;
+        }
+    }
+}

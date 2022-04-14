@@ -1,0 +1,78 @@
+.inputs .Inputs_number {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #F6F6F8;
+  border-radius: 5px;
+  height: 60px;
+  width: 80px;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-right: 20px;
+}
+
+.inputs .Inputs_number p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #909EBB;
+}
+
+.inputs label {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D213F;
+}
+
+.inputs label span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.inputs .Inputs_inner {
+  margin-top: 16px;
+  border: 0px;
+  background: #F6F6F8;
+  border-radius: 5px;
+  width: 100%;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D213F;
+  padding-left: 20px;
+  height: 60px;
+}
+
+.inputs .Inputs_inner:focus {
+  outline: 0;
+}
+
+.inputs .Inputs_inner::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.inputs .Inputs_inner::-webkit-input-placeholder {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #909EBB;
+}
+/*# sourceMappingURL=Inputs.module.css.map */

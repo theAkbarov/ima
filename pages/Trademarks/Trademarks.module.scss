@@ -1,0 +1,60 @@
+.Trademarks{
+    .Trademarks_title{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 40px;
+        line-height: 45px;
+        color: #1D213F;
+        text-align: center;
+        margin-top: 74px;
+    }
+    .Trademarks_inner{
+        background: #FFFFFF;
+        border-radius: 20px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        .Trademarks_inner_title{
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 37px 0px 39px 50px ;
+            .Trademarks_inner_title_btn{
+                display: flex;
+                align-items: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #0065DD;
+                cursor: pointer;
+                img{
+                    transform: rotate(90deg);
+                    margin-right: 10px;
+                }
+            
+            }
+            .Trademarks_inner_title_text{
+                
+                font-style: normal;
+                font-weight: 500;
+                font-size: 30px;
+                line-height: 45px;
+                color: #1D213F;
+            }
+        }
+
+
+    }
+}
+
+.Button_btn{
+   button{
+       margin-left: auto;
+       margin-right: auto;
+       width: 310px;
+       display: flex;
+       justify-content: center;
+   }
+
+}

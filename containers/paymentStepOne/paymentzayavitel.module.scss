@@ -1,0 +1,166 @@
+.PaymentZayavitel_wrapper{
+    background: #FFFFFF;
+    border-radius: 20px;
+    .holder{
+        padding: 37px 0 39px 0;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 1px solid #e7eaf0;
+        h3{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 45px;
+            color: #1D213F;
+        }
+        button{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #0065DD;
+            left: 65px;
+            position: absolute;
+            border: none;
+            background-color: transparent;
+            &::before{
+                width: 5px;
+                height: 9px;
+                background-size: contain;
+                top: 0;
+                bottom: 0;
+                left: -10px;
+                position: absolute;
+                margin: auto;
+                content: '';
+                background-image: url('../../assets/images/Vector\ \(1\).png');
+            }
+        }
+    }
+    .zayavitel_forma{
+        padding: 50px;
+        box-sizing: border-box;
+        .form_one{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            border-bottom: 1px solid #E7EAF0;
+            padding-bottom: 50px;
+            label{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D213F;
+                display: block;
+                margin-bottom: 16px;
+                margin-top: 35px;
+            }
+            .left_side{
+                width: 48%;
+            }
+            .right_side{
+                width: 48%;
+            }
+            input{
+                outline: none;
+                border: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000;
+                padding: 20px;
+                box-sizing: border-box;
+                width: 100%;
+                background: #F6F6F8;
+                border-radius: 5px;
+                &::placeholder{
+                    color: #909EBB;
+                }
+            }
+        }
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 35px;
+            color: #1D213F;
+            margin-bottom: 48px;
+            margin-top: 51px;
+        }
+        .form_two{
+            margin-bottom: 50px;
+            input, select{
+                outline: none;
+                border: none;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #000;
+                padding: 20px;
+                box-sizing: border-box;
+                width: 100%;
+                background: #F6F6F8;
+                border-radius: 5px;
+                &::placeholder{
+                    color: #909EBB;
+                }
+            }
+            label{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D213F;
+                display: block;
+                margin-bottom: 16px;
+                margin-top: 35px;
+            }
+            .top, .bottom{
+                display: flex;
+                align-items: flex-start;
+                justify-content: space-between;
+            }
+            .left{
+                width: 48%;
+                .phone_inp{
+                    display: flex;
+                    align-items: center;
+                    span{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        min-width: 80px;
+                        height: 60px;
+                        margin-right: 20px;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #909EBB;
+                        background: #F6F6F8;
+                        border-radius: 5px;
+                    }
+                }
+            }
+            .right{
+                width: 48%;
+            }
+        }
+        .next_btn{
+            padding: 20px 107px;
+            background: #0065DD;
+            border: none;
+            border-radius: 5px;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 19px;
+            color: #FFFFFF;
+        }
+    }
+}

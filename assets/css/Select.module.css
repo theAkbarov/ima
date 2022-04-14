@@ -1,0 +1,108 @@
+.Select p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D213F;
+  margin-bottom: 16px;
+}
+
+.Select .Select_item {
+  background: #F6F6F8;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.Select .Select_item .Select_item_top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 21px 26px 20px 20px;
+}
+
+.Select .Select_item .Select_item_top p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D213F;
+}
+
+.Select .Select_item .Select_item_top p img {
+  margin-right: 15px !important;
+}
+
+.Select .Select_item .Select_item_top p span {
+  color: #909EBB;
+}
+
+.Select .Select_item .open {
+  display: block;
+  list-style: none;
+  padding-left: 0;
+}
+
+.Select .Select_item .open li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 11px 26px 10px 20px;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D213F;
+}
+
+.Select .Select_item .open li img {
+  margin-right: 15px !important;
+}
+
+.Select .Select_item .open li span {
+  color: #909EBB;
+}
+
+.Select .Select_item .Select_item_inner {
+  display: none;
+  list-style: none;
+  padding-left: 0;
+}
+
+.Select .Select_item .Select_item_inner li {
+  padding: 11px 26px 10px 20px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1D213F;
+}
+
+.Select .Select_item .Select_item_inner li span {
+  color: #909EBB;
+}
+
+.images {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+/*# sourceMappingURL=Select.module.css.map */

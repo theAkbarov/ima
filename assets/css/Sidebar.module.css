@@ -1,0 +1,100 @@
+.sidebar_wrapper {
+  max-width: 250px;
+  position: fixed;
+  padding-top: 30px;
+  background-color: white;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+}
+
+.sidebar_wrapper .top_side {
+  text-align: center;
+}
+
+.sidebar_wrapper .top_side .logo_txt {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #1d213f;
+  margin-top: 20px;
+}
+
+.sidebar_wrapper .icons_wrapper .above {
+  margin-top: 50px;
+  position: relative;
+}
+
+.sidebar_wrapper .icons_wrapper .above::after {
+  content: "";
+  position: absolute;
+  width: 90%;
+  background-color: #dde1ea;
+  height: 1px;
+  left: 10px;
+}
+
+.sidebar_wrapper .icons_wrapper li {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 20px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-left: 2px solid #f7f7f700;
+}
+
+.sidebar_wrapper .icons_wrapper li:hover {
+  cursor: pointer;
+  border-left: 2px solid #0065dd;
+}
+
+.sidebar_wrapper .icons_wrapper li:hover .sidebar_txt {
+  color: #0065dd;
+}
+
+.sidebar_wrapper .icons_wrapper li:hover path {
+  stroke: #0065dd;
+}
+
+.sidebar_wrapper .icons_wrapper li div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+}
+
+.sidebar_wrapper .icons_wrapper li .sidebar_txt {
+  display: block;
+  margin-left: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #1d213f;
+}
+
+.sidebar_wrapper .icons_wrapper .below {
+  margin-top: 50px;
+}
+
+.sidebar_wrapper .social_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 40px;
+  position: absolute;
+  bottom: 20px;
+}
+
+.sidebar_wrapper .social_icons div {
+  margin-right: 20px;
+}
+
+.sidebar_wrapper .social_icons div:hover path {
+  stroke: #0065dd;
+}
+/*# sourceMappingURL=Sidebar.module.css.map */

@@ -1,0 +1,104 @@
+.Select {
+    p {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1D213F;
+        margin-bottom: 16px;
+    }
+
+    .Select_item {
+        background: #F6F6F8;
+        border-radius: 5px;
+        cursor: pointer;
+        position: relative;
+
+        .Select_item_top {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0px 26px 0px 20px;
+            height: 60px;
+
+            p {
+                img {
+                    margin-right: 15px !important;
+                }
+
+                display: flex;
+                align-items: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D213F;
+                margin-top: 15px;
+
+                span {
+                    color: #909EBB;
+                }
+            }
+        }
+
+        .open {
+            display: block;
+            list-style: none;
+            padding-left: 0;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            position: absolute;
+            background-color: #F6F6F8;
+            width: 100%;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+
+            li {
+                img {
+                    margin-right: 15px !important;
+                }
+
+                display: flex;
+                align-items: center;
+                padding: 11px 26px 10px 20px;
+                cursor: pointer;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D213F;
+
+                span {
+                    color: #909EBB;
+                }
+            }
+        }
+
+        .Select_item_inner {
+            display: none;
+            list-style: none;
+            padding-left: 0;
+
+            li {
+                padding: 11px 26px 10px 20px;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D213F;
+
+                span {
+                    color: #909EBB;
+                }
+            }
+        }
+
+    }
+
+}
+
+.images {
+    transform: rotate(180deg);
+}

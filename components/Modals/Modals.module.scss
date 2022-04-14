@@ -1,0 +1,108 @@
+.Modals{
+    
+    position: absolute;
+    top:110px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1170px;
+    width: 100%;
+    background: #FFFFFF;
+    border-radius: 20px;
+    left: 0;
+    right: 0;
+    .Modals_title{
+    padding: 50px;
+
+        font-style: normal;
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 35px;
+        color: #000000;
+
+    }
+    .Modals_inner{
+     padding: 50px;
+     display: flex;
+     align-items: flex-start;
+     justify-content: space-between;
+
+        padding-top: 50px;
+        border-top:  1px solid #E7EAF0;
+        .Modals_inner_left{
+            border-right:  1px solid #E7EAF0;
+            width: 60%;
+            p{
+                display: flex;
+                align-items: center;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 19px;
+                color: #1D213F;
+                margin-bottom: 25px;
+                button{
+                    width: 24px;
+                    height: 24px;
+                    border: 1px solid #BCC5D6;
+                    box-sizing: border-box;
+                    border-radius: 5px;
+                    background-color: white;
+                    background-image: url('../../public/assets/icons/Vectorff.png');
+                    background-repeat: no-repeat;
+                    background-position:center;
+                    background-size: auto;
+                    margin-right: 15px;
+                    cursor: pointer;
+                    &:hover{
+                    background-image: url('../../public/assets/icons/Vectorggg.png') !important;
+                    background-repeat: no-repeat !important;
+                    background-position:center !important;
+                    background-size: auto !important;
+                    background: #BCC5D6;
+                    }
+                }
+            }
+        }
+
+    }
+}
+.Modals_inner_right{
+    .Modals_inner_right_title{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #1D213F;
+
+    }
+    p{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #0065DD;
+        cursor: pointer;
+        margin-top: 35px;
+    }
+    .Modals_inner_right_input{
+        background: #F6F6F8;
+        border-radius: 5px;
+        border: 0;
+        padding: 15px 0px 16px 20px ;
+        margin-top: 17px;
+        width: 370px;
+        &:focus{
+            outline: none;
+        }
+        &::placeholder{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #909EBB;
+        }
+    }
+}

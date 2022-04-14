@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../../../pages/Trademarks/Trademarks.module.scss"
+    ],
+    "names": [],
+    "file": "Trademarks.module.min.css"
+}

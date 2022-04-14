@@ -1,0 +1,241 @@
+.utilityModel_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  color: #1D213F;
+  margin-top: 74px;
+}
+
+.utilityModel_block {
+  background: white;
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 47px 0;
+}
+
+.utilityModel_block_inner_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E7EAF0;
+  padding-bottom: 39px;
+
+}
+
+.utilityModel_top_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  padding-left: 20px;
+  position: relative;
+  color: #0065dd;
+  margin-left: 50px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-image: url("../../assets/images/Полезные модели/Vector.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 10px;
+  }
+}
+
+.utilityModel_top_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1d213f;
+}
+
+.confirmation_block {
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.confirmation_block_inner {
+  margin-bottom: 87px;
+}
+
+.confirmation_block_inner_tittle {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  padding: 25px 20px;
+  box-sizing: border-box;
+  background: #F1F2F5;
+  border-radius: 5px;
+  color: #1D213F;
+  margin-bottom: 10px;
+
+}
+
+.confirmation_block_inner_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #E7EAF0;
+  padding: 16px 20px;
+  box-sizing: border-box;
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.confirmation_block_inner_box_div {
+  width: 313px;
+  align-items: center;
+  display: flex;
+
+  span {
+    margin-right: 15px !important;
+  }
+}
+
+
+
+.confirmation_block_inner_tit {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 36px;
+  color: #1D213F;
+}
+
+.confirmation_block_inner_description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: left;
+  color: #1D213F;
+  width: 300px;
+}
+
+.noDIv {
+  width: 50px;
+}
+
+.confirmation_block_inner_delete {
+  width: 70px;
+  border: none;
+  background: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  cursor: pointer;
+  color: #8B91A9;
+}
+
+.confirmation_block_inner_tite {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #8B91A9;
+}
+
+.confirmation_block_inner_first_div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 20px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #E7EAF0;
+
+  div {
+    width: 60px;
+  }
+}
+
+.confirmation_block_inner_first_div_title {
+  font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #1D213F;
+width: 313px;
+font-weight: bold;
+}
+
+
+.payments_link_block {
+  display: flex;
+  align-items: center;
+    margin-top: 70px;
+
+}
+
+
+.payments_link_payment {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #0065dd;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all ease 0.5s;
+  display: inline-block;
+  text-align: center;
+  width: 310px;
+  
+  &:hover {
+    color: #0065dd;
+    background: white;
+    border: 1px solid #0065dd;
+  }
+}
+
+.downloads_payments_check {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+   padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all ease 0.5s;
+  display: inline-block;
+  text-align: center;
+  color: #0065dd;
+  background: white;
+  border: 1px solid #0065dd;
+  position: relative;
+  width: 310px;
+  margin-left: 30px;
+  &::before {
+    content: "";
+    position: absolute;
+    top:0;
+    bottom: 3px;
+    left: 45px;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../assets/images/downloads.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &:hover {
+    color: white;
+    background: #0065dd;
+    border: 1px solid #0065dd;
+  }
+}

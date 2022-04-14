@@ -1,0 +1,34 @@
+.Application_wrapper{
+    padding: 48px 50px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border-radius: 20px;    
+    .holder{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-style: normal;
+            font-weight: 500;
+            font-size: 24px;
+            line-height: 28px;
+            color: #1D213F;
+        }
+        
+    }
+
+    .status_tabbar{
+        margin-top: 41px;
+        padding: 25px 20px;
+        box-sizing: border-box;
+        background: #F1F2F5;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        span{
+            display: block;
+            width: 33%;
+        }
+    }
+}

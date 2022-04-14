@@ -1,0 +1,469 @@
+.utilityModel_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 45px;
+  text-align: center;
+  color: #1d213f;
+  margin-top: 74px;
+}
+
+.utilityModel_block {
+  background: white;
+  padding: 50px 0 0 0;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 47px 0;
+}
+
+.utilityModel_block_inner_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7eaf0;
+  padding-bottom: 39px;
+}
+
+.utilityModel_block_inner_bottom {
+  padding: 0 50px 50px 50px;
+}
+
+.utilityModel_top_link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-decoration: none;
+  padding-left: 20px;
+  position: relative;
+  color: #0065dd;
+  margin-left: 50px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    background-image: url("../../assets/images/Полезные модели/Vector.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    left: 10px;
+  }
+}
+
+.utilityModel_top_text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  color: #1d213f;
+}
+
+.utilityModel_block_inner_bottom_left {
+  width: 26%;
+  height: 100%;
+  padding-right: 49px;
+}
+
+.utilityModel_block_inner_bottom_title {
+  margin-top: 50px;
+}
+
+.utilityModel_block_inner_bottom_right {
+  width: 65%;
+  padding-left: 51px;
+  border-left: 1px solid #e7eaf0;
+}
+
+.utilityModel_block_inner_bottom_input {
+  display: none;
+}
+
+.utilityModel_block_inner_bottom_label {
+  width: 100%;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #e7eaf0;
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 25px 0;
+  display: block;
+  cursor: pointer;
+
+  &:hover {
+    background: #1d213f;
+    color: white;
+  }
+}
+
+.utilityModel_block_inner_bottom_right_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1d213f;
+  position: relative;
+  display: inline-block;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assets/images/undov/Полезные модели/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: -40px;
+  }
+}
+
+.utilityModel_block_inner_bottom_right_top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.utilityModel_block_inner_bottom_right_description {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #bcc5d6;
+}
+
+.utilityModel_block_inner_bottom_right_face_block {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.utilityModel_block_inner_bottom_right_face_label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d213f;
+  margin-right: 33px;
+}
+
+.utilityModel_block_inner_bottom_right_code_block {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.utilityModel_block_inner_bottom_right_code_block_inner {
+  width: 45%;
+}
+
+.utilityModel_block_inner_bottom_right_code_block {
+  margin-top: 45px;
+}
+
+.pnflIcon {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assets/images/undov/Полезные модели/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    right: 0;
+  }
+}
+
+.utilityFullName {
+  margin-top: 35px;
+
+  input {
+    &::placeholder {
+      color: black;
+    }
+  }
+}
+
+.utilityModel_block_inner_bottom_right_region_block_inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 35px;
+
+  .selectArrWidth {
+    width: 45%;
+  }
+}
+
+.utilityAdress {
+  margin-top: 35px;
+}
+
+.utilitytelephone {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d213f;
+  display: flex;
+  align-items: center;
+  margin-top: 35px;
+}
+
+.utilitySms {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 19px;
+  color: #909ebb;
+  margin-left: 10px;
+}
+
+.utilityModel_checkbox_lable {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d213f;
+}
+
+.utilityModel_block_inner_bottom_right_avator_block_inner {
+  margin-top: 42px;
+}
+
+.utilityModel_download_input {
+  display: none;
+}
+
+.utilityModel_download_label {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 30px;
+  color: #0065dd;
+  position: relative;
+  cursor: pointer;
+  margin-top: 47px;
+  display: block;
+
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    margin: auto;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../assets/images/plus/Полезные модели/Vector.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    left: 0px;
+  }
+}
+
+.utilityvariant {
+  margin-top: 47px;
+}
+
+.mestoroboto {
+  margin-top: 35px;
+}
+
+.workPerson {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.workPersonDiv {
+  width: 45%;
+}
+
+.utilityDescription {
+  margin-top: 45px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1d213f;
+}
+
+.utilityModel_block_inner_bottom_right_avator_block_inner_box {
+  display: flex;
+  align-items: center;
+  margin-top: 18px;
+}
+
+.utilityModel_Label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  margin: 0 34px 0 15px;
+  color: #1d213f;
+}
+
+.utilityBtn {
+  padding: 20px 107px;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border: 1px solid transparent;
+  color: #ffffff;
+  background: #0065dd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all ease 0.5s;
+
+  &:hover {
+    color: #0065dd;
+    background: transparent;
+    border: 1px solid #0065dd;
+  }
+}
+
+.utilityBtnDiv {
+  margin-top: 46px;
+  padding-bottom: 50px;
+}
+
+.payments_link_payment {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #0065dd;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all ease 0.5s;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  
+  &:hover {
+    color: #0065dd;
+    background: white;
+    border: 1px solid #0065dd;
+  }
+}
+
+.downloads_payments_check {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+   padding: 20px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  transition: all ease 0.5s;
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  color: #0065dd;
+  background: white;
+  border: 1px solid #0065dd;
+  position: relative;
+  &::before {
+    content: "";
+    position: absolute;
+    top:0;
+    bottom: 3px;
+    left: 45px;
+    margin: auto;
+    width: 15px;
+    height: 15px;
+    background-image: url('../../assets/images/downloads.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &:hover {
+    color: white;
+    background: #0065dd;
+    border: 1px solid #0065dd;
+  }
+}
+
+.payments_link_block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.payments_block {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 52px;
+}
+
+.payments_block_inner_bottom_right {
+  width: 28%;
+}
+
+.utilityModel_block_inner_bottom_block {
+  width: 67%;
+  border-right: 1px solid #E7EAF0;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.payments_block_inner_bottom_right_inner {
+  background: #F1F2F5;
+  border-radius: 5px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.payments_block_inner_bottom_right_title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1D213F;
+}
+
+.payments_block_inner_bottom_right_descblock {
+  margin: 43px 0;
+  border-top: 1px solid #DDE1EA;
+  border-bottom: 1px solid #DDE1EA;
+  padding: 16px 0;
+}
+
+.payments_block_inner_bottom_right_description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 36px;
+  color: #1D213F;
+}
+
+.payments_block_inner_bottom_right_title2 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #1D213F;
+}
+
+.utilityModel_block_inner_bottom_block_right {
+  margin-top: 50px;
+}

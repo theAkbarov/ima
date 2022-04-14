@@ -1,0 +1,158 @@
+
+.Trademarks_inner_middle_right{
+    width: 58%;
+    padding: 50px;
+    padding-top: 54px;
+    .Trademarks_inner_middle_right_title{
+     font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 19px;
+     color: #1D213F;
+     margin-bottom: 17px;
+    }
+     .Trademarks_inner_middle_right_item{
+         display: flex;
+         align-items: center;
+         margin-bottom: 45px;
+         span{
+             display: flex;
+             align-items: center;
+             input[type="radio"] { 
+                 width: 20px;
+                 height: 20px;
+                 cursor: pointer;
+             }
+             label{
+                 font-style: normal;
+                 font-weight: 400;
+                 font-size: 16px;
+                 line-height: 19px;
+                 color: #1D213F;
+                 margin-top: 7px;
+                 margin-left: 15px;
+                 margin-right: 33px;
+                 cursor: pointer;
+             }
+         }
+     }
+     .Trademarks_inner_middle_right_item_input{
+         display: flex;
+         justify-content: space-between;
+         align-items: flex-start;
+         margin-bottom: 35px;
+     }
+     .Trademarks_inner_middle_right_item_name{
+         margin-bottom: 35px;
+     }
+     .Trademarks_inner_middle_right_upload{
+        border: 2px dashed #BCC5D6;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: #FFFFFF;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        background-image: url('../../public/assets/icons/Vectordow.png');
+        background-repeat: no-repeat;
+        background-position: 95%;
+        background-size: auto;
+        cursor: pointer;
+        margin-top: 50px;
+        .title_one{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            color: #1D213F;
+            margin-left: 20px;
+            margin-bottom: 5px;
+            cursor: pointer;
+
+        }
+        .title_two{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 16px;
+            color: #8B91A9;
+            margin-left: 20px;
+            cursor: pointer;
+
+        }
+         .Trademarks_inner_middle_right_upload_item{
+             display: none;
+
+         }
+     }
+ }
+ .Trademarks_inner_middle{
+    padding-left: 50px;
+    padding-right: 50px;
+    border-top: 1px solid #E7EAF0;
+    display: flex;
+    justify-content: space-between;
+    .Trademarks_inner_middle_left{
+        padding-top: 54px;
+        width: 400px;
+        border-right: 1px solid #E7EAF0;
+    }
+}
+
+ .btn_title{
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1D213F;
+    margin-bottom: 16px;
+
+}
+.SelectBtn{
+    display: flex;
+    flex-direction: column;
+    .SelectBtn_button{
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #8B91A9;
+        text-align: left;
+        border: 1px solid #BCC5D6;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: #FFFFFF;
+        width: 320px;
+        height: 60px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        padding-left: 20px;
+    }
+    .Selected_button{
+        
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 19px;
+        color: #FFFFFF;
+        text-align: left;
+        border: 1px solid #BCC5D6;
+        box-sizing: border-box;
+        border-radius: 5px;
+        background: #1D213F;
+        width: 320px;
+        height: 60px;
+        margin-bottom: 20px;
+        cursor: pointer;
+        background-image: url('../../public/assets/icons/Vector2.png');
+        background-repeat: no-repeat;
+        background-position: 93%;
+        background-size: auto;
+        padding-left: 20px;
+
+
+    }
+}

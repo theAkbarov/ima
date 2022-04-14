@@ -1,0 +1,39 @@
+.iconBlock_Img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ellipse {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 10px;
+  height: 10px;
+}
+
+.iconBlock_e {
+  width: 60px;
+  height: 60px;
+  background: #0065dd;
+  border-radius: 50%;
+  position: relative;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  span:last-child {
+    position: absolute !important;
+    top: -5px !important;
+    right: -5px !important;
+  }
+}
